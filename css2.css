@@ -1,0 +1,316 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+  body{
+    font-family: 'Raleway', sans-serif;
+
+ }
+
+
+header{
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 550px;
+    weight:1000px;
+    justify-content:center;
+    
+    background-color: #eac0c4;
+    background-size: cover;
+    }
+    
+    header{
+        height: 750px;
+        justify-content:center;
+        background-color: #27282c;
+        height: 180px;
+       }
+    
+    .logo-header{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content:center;
+    }
+    
+    .header-href1{
+        position: relative;
+        background: #fff;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.0em;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+        padding: 10px 30px;
+        transition: 0.5s;
+    }
+    .header-href1:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.25em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+    .header-href1:before{
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background:#27282c ;
+    }
+    .header-href1 span{
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    .header-href2{
+        position: relative;
+        background: #fff;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.0em;
+        letter-spacing: 0.1em;
+        font-weight: 300;
+        padding: 10px 30px;
+        transition: 0.5s;
+    }
+    .header-href2:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.25em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+    .header-href2:before{
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: #27282c;
+    }
+    .header-href2 span{
+        position: relative;
+        z-index: 1;
+    }
+    .link li{
+        display: inline-block;
+        margin-right: 70px;
+    }
+    
+    .link-header1{
+        margin-top:-100px;
+        margin-left: 10px;
+    }
+    
+    .link-header2{
+        margin-top:-35px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    .header-href{
+        color:white;
+        font-size: 150%;
+        text-decoration: none;
+    }
+    
+    .text-header h1{
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+    }
+    
+    .text-header p{
+        text-align: center;
+     
+        color:white;
+        font-size: 30px;
+    }
+    
+    .text-header{
+        margin: 100px;
+    }
+    
+    .logo{
+        width: 10%;
+        padding-top: 10px;
+        transition: 1s;
+    }
+    
+    .logo:hover{
+       transform: scale(1.2);
+    }
+
+    .title_color_main{
+        background-color: #EAC0C4;
+    }
+    .wrap_bot{
+        background-color: white;
+        text-align: center;
+        font-size: 25px;
+        height: 150px;
+        weight:1000px;
+        margin-left: -8px;
+    }
+
+    .main{
+        background-color: #e1d6d6;
+    }
+    .text_h1{
+        text-align: center;
+    }
+
+    .container_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        box-shadow: 2px 2px 4px #ccc;
+        text-align: center;
+        background-color: #EAC0C4;
+        transition: transform 0.3s ;
+    }
+    .card img {
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+      
+      .card:hover {
+        transform: scale(1.05);
+        transition-duration: 0.5;
+        cursor: pointer;
+      }
+
+    .text_footer_h2{
+        font-size: 50px;
+    }
+
+    .text_footer_p{
+        font-size: 30px;
+    }
+    .li_decor{
+        list-style-type: none ;
+        color: black;
+    }   
+
+    .woek_right_btn {
+        background-color: #db9f95;
+        color: black;
+        width: 240px;
+        height: 56px;
+        transition: 0.5s;
+    }
+    
+    .woek_right_btn:hover,
+    .woek_right_btn:focus,
+    .woek_right_btn:active {
+        background: #c56869;
+        box-shadow: 5 10 20 rgba(53, 110, 173, 0.2);
+        border-radius: 5px;
+        color: #fff;
+        height: 56px;
+        width: 220px;
+        border: 1px;
+        /* transform: rotate(180deg); */
+        transform: skewX(-15deg);
+    }
+    .woek_right_btn_bot{
+        background-color: #db9f95;
+        color: black;
+        width: 140px;
+        height: 26px;
+        transition: 0.9s;
+    }
+
+    .woek_right_btn_bot:hover,
+    .woek_right_btn_bot:focus,
+    .woek_right_btn_bot:active {
+        background: #c56869;
+        box-shadow: 5 10 20 rgba(53, 110, 173, 0.2);
+        border-radius: 5px;
+        color: #fff;
+        height: 56px;
+        width: 220px;
+        border: 1px;
+        transform: rotate(360deg); 
+        transform: skewX(-15deg);
+    }
+
+/* Для устройств с шириной экрана не более 480 пикселей */
+@media (max-width: 480px) {
+    /* Скрытие изображения в шапке */
+    .logo {
+        display: none;
+    }
+    /* Изменение стиля текста в шапке */
+    .text-header {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .text-header h1 {
+        font-size: 28px;
+    }
+    .text-header p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    /* Изменение стиля списка в шапке */
+    .link-header1, .link-header2 {
+        display: none;
+    }
+    .header-href {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* Изменение стиля блоков с карточками специалистов */
+    .card {
+        margin-bottom: 20px;
+    }
+    .card h2 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .card p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .woek_right_btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+footer {
+    margin-top: 100px;
+    background-color: #eac0c4;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-form{
+    margin-bottom: 50px;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+}
+
+.ach {
+    list-style-type: none;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+ body{
+    font-family: 'Raleway', sans-serif;
+
+ }
+
+
+header{
+    height: 750px;
+    justify-content:center;
+    background-color: #27282c;
+    height: 180px;
+   }
+
+.logo-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:center;
+}
+
+.header-href1{
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.header-href1:hover {
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.header-href1:before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background:#27282c ;
+}
+.header-href1 span{
+    position: relative;
+    z-index: 1;
+}
+
+
+.header-href2{
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.header-href2:hover {
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.header-href2:before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+.header-href2 span{
+    position: relative;
+    z-index: 1;
+}
+
+
+.logo{
+    width: 10%;
+    padding-top: 10px;
+    transition: 1s;
+}
+
+.logo:hover{
+   transform: scale(1.2);
+}
+.link li{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.link-header1{
+    margin-top:-100px;
+    margin-left: 10px;
+}
+
+.link-header2{
+    margin-top:-35px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.header-href{
+    color:white;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+
+body {
+
+    margin: 0 auto;
+    background-size: cover;
+    height: 100%;
+    weight: 100%;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+main {
+    background-color: white;
+
+}
+
+.a {
+    width: 30%;
+}
+
+
+
+
+.textx {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.send {
+    width: 90px;
+    height: 30px;
+}
+
+.footer {
+    background-color: #eac0c4;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+}
+
+.ach {
+    list-style-type: none;
+}
